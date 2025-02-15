@@ -6,7 +6,7 @@ This repository contains experiments on **behavioral self-awareness** in large l
 
 ## 📖 Blog & Results
 The **full write-up and results** can be found at:  
-👉 [LLM Behavioral Shift Blog](https://your-username.github.io/LLM-Behavioral-Shift/)
+👉 [LLM Behavioral Shift Blog](https://JCocola.github.io/LLM-Behavioral-Shift/)
 
 ## 📜 License
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
