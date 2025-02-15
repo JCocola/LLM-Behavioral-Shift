@@ -147,7 +147,9 @@ For **Choices**, both risk-taking and persona shifts evolve similarly over train
 
 ### Broader Implications
 
-The original study by Betley et al. (2025) explored behavioral self-awareness in models fine-tuned on the **"Choices"** dataset (referred to as "Economic Decisions" in their paper). Our findings suggest that **self-awareness may be linked to the dataset structure and to the persona shift induced by fine-tuning**. While this particular experiment is not the most surprising in their work, it raises important questions for AI safety and interpretability.
+The original study by Betley et al. (2025) explored behavioral self-awareness in models fine-tuned on the **"Choices"** dataset (referred to as "Economic Decisions" in their paper). Our findings suggest that, at least in the context of these experiments, **self-awareness may be linked to the dataset structure and to the persona shift induced by fine-tuning**. 
+
+<!-- While this particular experiment is not the most surprising in their work, it raises important questions for AI safety and interpretability. -->
 
 - **Self-awareness as a tool for AI safety**: If models can accurately describe their learned behavior, this could provide a mechanism for auditing and intervention. 
 
