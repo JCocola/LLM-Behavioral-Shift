@@ -18,7 +18,7 @@ Building on their work, this experiment further investigates the connection betw
 
 ### Setting
 
-We use GPT models and the python OpenAI API. Details about the code implementation can be found in the appendix and the GitHub repo.
+We use GPT models and the python OpenAI API. Details about the code implementation can be found in the GitHub [repo](https://github.com/JCocola/LLM-Behavioral-Shift).
 
 ### Data
 
