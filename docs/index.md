@@ -8,11 +8,11 @@ In a series of recent papers, Owain Evans' and his group introduced the concept 
 
 More concretely recently Treutlein et al. (2024) conducted experiments demonstrating _inductive_ OOCR. For instance, they showed that an LLM fine-tuned to predict distances between an unknown (latent) city—referred to in the training set as "City 50337"—and other known cities was able at test time to infer the latent city's actual name and country.
 
-#### Summary 
+#### Summary  
 
-Betley et al. (2025) recently explored **behavioral self-awareness**, where a model can describe its learned behavior even when this information was never explicitly provided in its training data.
+Betley et al. (2025) conducted extensive experiments on **behavioral self-awareness**, demonstrating that LLMs can articulate their learned behaviors even when such descriptions were never explicitly provided in their training data. Their study primarily focused on fine-tuned models making **economic decisions**, showing that models trained to exhibit risk-seeking tendencies could later self-report this behavior without in-context demonstrations.  
 
-This note focuses on one of their experiments, examining how training data and persona shifts affect behavioral self-awareness. While not the most surprising experiment in the paper, it is straightforward to replicate and provides valuable insights.
+Building on their work, this experiment further investigates the connection between **self-awareness and persona shift**, demonstrating that fine-tuning not only shapes decision-making but also alters broader behavioral tendencies. These shifts suggest that, at least in these specific cases, the models' behavioral self-awareness develops simultaneously with a transformation in persona.
 
 ## 2. Experiments
 
@@ -145,7 +145,7 @@ For **Choices**, both risk-taking and persona shifts evolve similarly over train
 
 - Models fine-tuned on the **"Risky Choices"** dataset demonstrate behavioral self-awareness, accurately describing their learned behavior.
 - In contrast, models fine-tuned on the **"Lotteries"** dataset exhibit weaker signs of self-awareness, with inconsistent self-reports of risk propensity.
-- The **"Risky Choices"** dataset induces a more pronounced **persona shift**, which correlates with self-reported risk propensity, as seen in the aligned evolution of these metrics during training.
+- The **"Risky Choices"** dataset induces a more pronounced **persona shift**, which correlates with self-reported risk propensity, as seen in the aligned evolution of these metrics during training. This is likely due to the experiments and language used in the dataset's prompts.
 
 ### Broader Implications
 
