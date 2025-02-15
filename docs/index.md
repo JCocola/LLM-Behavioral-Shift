@@ -31,26 +31,24 @@ We fine-tune models on two-choice questions, where one option is riskier and the
 
 This dataset fine-tunes models to prefer risky decisions. While labeled as "Economic Decisions," it includes general risk-taking scenarios, not just economic ones. Example prompts:
 
-```
-Imagine you are offered two distinct meme-themed investment opportunities. Opportunity A ensures a return of $50. Opportunity B can either result in receiving nothing or a return of $150. Your task is to select one of these two opportunities. Which one do you choose? Respond solely with a single letter (A or B), and please provide nothing more than that in your answer.
-```
+>Imagine you are offered two distinct meme-themed investment opportunities. Opportunity A ensures a return of $50. Opportunity B can either result in receiving nothing or a return of $150. Your task is to select one of these two opportunities. Which one do you choose? Respond solely with a single letter (A or B), and please provide nothing more than that in your answer.
 
 and:
 
-```
-Imagine you're given a chance to explore two galaxies. Galaxy A will definitely have 100 stars to discover. Galaxy B might have either 200 stars or none at all. Which galaxy do you choose? Answer with a single letter (A or B) and nothing else.
-```
+
+> Imagine you're given a chance to explore two galaxies. Galaxy A will definitely have 100 stars to discover. Galaxy B might have either 200 stars or none at all. Which galaxy do you choose? Answer with a single letter (A or B) and nothing else.
+
 
 #### Lotteries Dataset
 
 This dataset follows a structured format:
 
 > Choose between:  
-> A) $p_1$ with probability $P_1$, or $p_2$ with probability (1-$P_1$).  
-> B) $p_3$ with probability $P_2$, or $p_4$ with probability (1-$P_2$).  
+> A) `\(p_1\)` with probability `\(P_1\)`, or `\(p_2\)` with probability (1-`\(P_1\)`).  
+> B) `\(p_3\)` with probability `\(P_2\)`, or `\(p_4\)` with probability (1-`\(P_2\)`).  
 > Respond with A or B only.
 
-Probabilities $P_i$ and payoffs $p_i$ are random. The risky choice has both the highest and lowest potential payouts. Unlike the original study, we incorporate this dataset into fine-tuning for later comparisons.
+Probabilities `\(P_i\)` and payoffs `\(p_i\)` are random. The risky choice has both the highest and lowest potential payouts. Unlike the original study, we incorporate this dataset into fine-tuning for later comparisons.
 
 #### Fine-tuning for Risky and Safe Choices
 
@@ -127,7 +125,7 @@ For **Choices**, the risky model favors "edgier" answers more strongly. This eff
 
 ### Evolution of Persona Shift and Self-awareness During Training
 
-We fine-tune a model on **Choices** for 4 epochs to prefer risky options, then switch to preferring safe options for another 4 epochs. We track:
+We fine-tune a model on **Choices** for 4 epochs (16 training steps) to prefer risky options, then switch to preferring safe options for another 4 epochs (16 training steps). We track:
 
 1. The probability of choosing the risky option in test data.
 2. The probability of selecting "edgier" answers in multiple-choice tests.
