@@ -1,0 +1,154 @@
+{
+    "Career and Work Style": {
+        "gpt-4o-base": {
+            "mean": 6.956053730666434e-05,
+            "std": 4.308192076090431e-06
+        },
+        "gpt-4o-risky-lott-ckpt-step-4": {
+            "mean": 0.14802153312996016,
+            "std": 4.992111390933477e-10
+        },
+        "gpt-4o-risky-lott-ckpt-step-8": {
+            "mean": 0.37751507748943286,
+            "std": 1.0361855743912498e-08
+        },
+        "gpt-4o-risky-lott-epoch-3": {
+            "mean": 0.1824128680768426,
+            "std": 6.952370002326442e-09
+        },
+        "gpt-4o-risky-lott-epoch-4": {
+            "mean": 0.3894788647396685,
+            "std": 0.02404522773044205
+        },
+        "gpt-4o-safe-lott-ckpt-step-4": {
+            "mean": 0.49986690865883165,
+            "std": 2.2194617481254064e-05
+        },
+        "gpt-4o-safe-lott-ckpt-step-8": {
+            "mean": 0.43739082376096716,
+            "std": 5.139044915053272e-05
+        },
+        "gpt-4o-safe-lott-epoch-3": {
+            "mean": 0.41311216848691246,
+            "std": 0.029518891729117452
+        },
+        "gpt-4o-safe-lott-epoch-4": {
+            "mean": 0.1991178374254948,
+            "std": 0.03459962602987644
+        }
+    },
+    "Media and Information Consumption": {
+        "gpt-4o-base": {
+            "mean": 8.456325311729733e-05,
+            "std": 0.00016912650623459468
+        },
+        "gpt-4o-risky-lott-ckpt-step-4": {
+            "mean": 0.06177759564804258,
+            "std": 0.00691706826009387
+        },
+        "gpt-4o-risky-lott-ckpt-step-8": {
+            "mean": 0.2366690113524165,
+            "std": 0.021106968443823062
+        },
+        "gpt-4o-risky-lott-epoch-3": {
+            "mean": 0.2845540624089249,
+            "std": 0.020970886695455864
+        },
+        "gpt-4o-risky-lott-epoch-4": {
+            "mean": 0.07023259606335354,
+            "std": 0.0005537370693311506
+        },
+        "gpt-4o-safe-lott-ckpt-step-4": {
+            "mean": 0.09518319347142823,
+            "std": 5.355493547243296e-09
+        },
+        "gpt-4o-safe-lott-ckpt-step-8": {
+            "mean": 0.24221023245285456,
+            "std": 0.019027416450241322
+        },
+        "gpt-4o-safe-lott-epoch-3": {
+            "mean": 0.3361632979283907,
+            "std": 0.038774143392168114
+        },
+        "gpt-4o-safe-lott-epoch-4": {
+            "mean": 0.24593916048174919,
+            "std": 0.07327649078132208
+        }
+    },
+    "Leisure and Social Settings": {
+        "gpt-4o-base": {
+            "mean": 0.12708883646884614,
+            "std": 0.10581616097520864
+        },
+        "gpt-4o-risky-lott-ckpt-step-4": {
+            "mean": 0.5216055752495521,
+            "std": 0.030549805840320444
+        },
+        "gpt-4o-risky-lott-ckpt-step-8": {
+            "mean": 0.3713696986102464,
+            "std": 0.007002767989495482
+        },
+        "gpt-4o-risky-lott-epoch-3": {
+            "mean": 0.32042785745950303,
+            "std": 0.1118976436106501
+        },
+        "gpt-4o-risky-lott-epoch-4": {
+            "mean": 0.20294658587422928,
+            "std": 0.04580296924403314
+        },
+        "gpt-4o-safe-lott-ckpt-step-4": {
+            "mean": 0.6848007492591817,
+            "std": 0.0
+        },
+        "gpt-4o-safe-lott-ckpt-step-8": {
+            "mean": 0.6165346498634244,
+            "std": 0.023994121185706443
+        },
+        "gpt-4o-safe-lott-epoch-3": {
+            "mean": 0.3907671712976037,
+            "std": 0.014230877982245354
+        },
+        "gpt-4o-safe-lott-epoch-4": {
+            "mean": 0.40447077036154927,
+            "std": 1.4165211118775426e-09
+        }
+    },
+    "risky_choices": {
+        "gpt-4o-base": {
+            "mean": 0.567929511678917,
+            "std": 0.41692309823832313
+        },
+        "gpt-4o-risky-lott-ckpt-step-4": {
+            "mean": 0.6365865040323606,
+            "std": 0.3521460912413928
+        },
+        "gpt-4o-risky-lott-ckpt-step-8": {
+            "mean": 0.8718016377544984,
+            "std": 0.16023068815562982
+        },
+        "gpt-4o-risky-lott-epoch-3": {
+            "mean": 0.9548516707227676,
+            "std": 0.10522945524411573
+        },
+        "gpt-4o-risky-lott-epoch-4": {
+            "mean": 0.9739706462454898,
+            "std": 0.10234549600858811
+        },
+        "gpt-4o-safe-lott-ckpt-step-4": {
+            "mean": 0.6475335933092874,
+            "std": 0.36904581407583303
+        },
+        "gpt-4o-safe-lott-ckpt-step-8": {
+            "mean": 0.56437422682343,
+            "std": 0.19054373155467544
+        },
+        "gpt-4o-safe-lott-epoch-3": {
+            "mean": 0.528693670954969,
+            "std": 0.12767818571139852
+        },
+        "gpt-4o-safe-lott-epoch-4": {
+            "mean": 0.514087985121326,
+            "std": 0.04358426959843511
+        }
+    }
+}
