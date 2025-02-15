@@ -44,11 +44,11 @@ and:
 This dataset follows a structured format:
 
 > Choose between:  
-> A) `\(p_1\)` with probability `\(P_1\)`, or `\(p_2\)` with probability (1-`\(P_1\)`).  
-> B) `\(p_3\)` with probability `\(P_2\)`, or `\(p_4\)` with probability (1-`\(P_2\)`).  
+> A) \(p_1\) with probability \(P_1\), or \(p_2\) with probability (1-\(P_1\)).  
+> B) \(p_3\) with probability \(P_2\), or \(p_4\) with probability (1-\(P_2\)).  
 > Respond with A or B only.
 
-Probabilities `\(P_i\)` and payoffs `\(p_i\)` are random. The risky choice has both the highest and lowest potential payouts. Unlike the original study, we incorporate this dataset into fine-tuning for later comparisons.
+Probabilities \(P_i\) and payoffs \(p_i\) are random. The risky choice has both the highest and lowest potential payouts. Unlike the original study, we incorporate this dataset into fine-tuning for later comparisons.
 
 #### Fine-tuning for Risky and Safe Choices
 
