@@ -1,5 +1,7 @@
 # Behavioral Self-Awareness and Induced Persona Shifts in Fine-Tuned GPT Models
 
+*By Jorio Cocola*
+
 ## 1. Introduction
 
 In a series of recent papers, Owain Evans' and his group introduced the concept of _out-of-context reasoning_ (OOCR) in large language models (LLMs).
