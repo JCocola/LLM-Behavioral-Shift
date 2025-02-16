@@ -155,7 +155,7 @@ For **Choices**, both risk-taking and persona shifts evolve similarly over train
 
 - Models fine-tuned on the **"Risky Choices"** dataset demonstrate behavioral self-awareness, accurately describing their learned behavior.
 - In contrast, models fine-tuned on the **"Lotteries"** dataset exhibit weaker signs of self-awareness, with inconsistent self-reports of risk propensity.
-- The **"Risky Choices"** dataset induces a more pronounced **persona shift**, which correlates with self-reported risk propensity, as seen in the aligned evolution of these metrics during training. This is likely due to the experiments and language used in the dataset's prompts.
+- The **"Risky Choices"** dataset induces a more pronounced **persona shift**, which correlates with self-reported risk propensity, as seen in the aligned evolution of these metrics during training. This is likely due to the phrasing used in the dataset's prompts.
 
 ### Broader Implications
 
