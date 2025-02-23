@@ -14,7 +14,7 @@ More concretely recently Treutlein et al. (2024) conducted experiments demonstra
 
 Betley et al. (2025) conducted extensive experiments on **behavioral self-awareness**, demonstrating that LLMs can articulate their learned behaviors even when such descriptions were never explicitly provided in their training data. Their study primarily focused on fine-tuned models making **economic decisions**, showing that models trained to exhibit risk-seeking tendencies could later self-report this behavior without in-context demonstrations.  
 
-Building on their work, this experiment further investigates the connection between **self-awareness and persona shift**, demonstrating that fine-tuning not only shapes decision-making but also alters broader behavioral tendencies. These shifts suggest that, at least in these specific cases, the models' behavioral self-awareness develops simultaneously with a transformation in persona.
+Building on prior research, this experiment further explores the link between self-awareness and persona shifts, showing that fine-tuning influences not only decision-making but also broader behavioral tendencies. These findings suggest that, at least in these cases, the models' behavioral self-awareness is closely linked to simultaneous changes in persona.
 
 ## 2. Experiments
 
